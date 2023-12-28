@@ -1,0 +1,311 @@
+{
+  "name": "WongeryNamespaces",
+  "namemsg": "wongerynamespaces-extensionname",
+  "version": "1.0.0",
+  "author": "Clay Salvage",
+  "url": "https://meta.wongery.org/wiki/Extension:WongeryNamespaces",
+  "type": "other",
+  "descriptionmsg": "wongerynamespaces-desc",
+  "requires": {
+    "MediaWiki": ">= 1.38.0"
+  },
+  "config": {},
+  "AutoloadNamespaces": {
+    "MediaWiki\\Extension\\WongeryNamespaces\\": "src/"
+  },
+  "HookHandlers": {
+    "WongeryNamespacesHookHandler": {
+      "class": "MediaWiki\\Extension\\WongeryNamespaces\\WongeryNamespacesHookHandler"
+    }
+  },
+  "Hooks": {},
+  "license-name": "GPL-2.0-or-later",
+  "ResourceModules": {
+    "ext.randomRules": {
+      "localBasePath": "modules/ext.wongeryNamespaces",
+      "remoteExtPath": "RandomRules/modules/ext.wongeryNamespaces",
+      "dependencies": [],
+      "styles": [],
+      "packageFiles": ["init.js"],
+      "messages": []
+    }
+  },
+  "namespaces": [
+    {
+      "id": 5020,
+      "constant": "NS_GAME",
+      "name": "Game",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5021,
+      "constant": "NS_GAME_TALK",
+      "name": "Game_talk"
+    },
+    {
+      "id": 5022,
+      "constant": "NS_BUILD",
+      "name": "Build",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5023,
+      "constant": "NS_BUILD_TALK",
+      "name": "Build_talk"
+    },
+    {
+      "id": 5024,
+      "constant": "NS_ASSET",
+      "name": "Asset",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5025,
+      "constant": "NS_ASSET_TALK",
+      "name": "Asset_talk"
+    },
+    {
+      "id": 5026,
+      "constant": "NS_SOURCE",
+      "name": "Source",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5027,
+      "constant": "NS_SOURCE_TALK",
+      "name": "Source_talk"
+    },
+    {
+      "id": 5028,
+      "constant": "NS_WORKS",
+      "name": "Works",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5029,
+      "constant": "NS_WORKS_TALK",
+      "name": "Works_talk"
+    },
+    {
+      "id": 5030,
+      "constant": "NS_MAP",
+      "name": "Map",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5031,
+      "constant": "NS_MAP_TALK",
+      "name": "Map_talk"
+    },
+    {
+      "id": 5200,
+      "constant": "NS_RPG",
+      "name": "Game_RPG",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5201,
+      "constant": "NS_RPG_TALK",
+      "name": "Game_RPG_talk"
+    },
+    {
+      "id": 5202,
+      "constant": "NS_CCG",
+      "name": "Game_CCG",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5203,
+      "constant": "NS_CCG_TALK",
+      "name": "Game_CCG_talk"
+    },
+    {
+      "id": 5204,
+      "constant": "NS_WAR",
+      "name": "Game_War",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5205,
+      "constant": "NS_WAR_TALK",
+      "name": "Game_War_talk"
+    },
+    {
+      "id": 5206,
+      "constant": "NS_BOARD",
+      "name": "Game_Board",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5207,
+      "constant": "NS_BOARD_TALK",
+      "name": "Game_Board_talk"
+    },
+    {
+      "id": 5208,
+      "constant": "NS_CARD",
+      "name": "Game_Card",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5209,
+      "constant": "NS_CARD_TALK",
+      "name": "Game_Card_talk"
+    },
+    {
+      "id": 5210,
+      "constant": "NS_DICE",
+      "name": "Game_Dice",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5211,
+      "constant": "NS_DICE_TALK",
+      "name": "Game_Dice_talk"
+    },
+    {
+      "id": 5212,
+      "constant": "NS_LEGO",
+      "name": "Build_LEGO",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5213,
+      "constant": "NS_LEGO_TALK",
+      "name": "Build_LEGO_talk"
+    },
+    {
+      "id": 5214,
+      "constant": "NS_ORIGAMI",
+      "name": "Build_Origami",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5215,
+      "constant": "NS_ORIGAMI_TALK",
+      "name": "Build_Origami_talk"
+    },
+    {
+      "id": 5216,
+      "constant": "NS_PAPER",
+      "name": "Build_Paper",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5217,
+      "constant": "NS_PAPER_TALK",
+      "name": "Build_Paper_talk"
+    },
+    {
+      "id": 5218,
+      "constant": "NS_BUILD3D",
+      "name": "Build_3d",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5219,
+      "constant": "NS_BUILD3D_TALK",
+      "name": "Build_3d_talk"
+    },
+    {
+      "id": 5220,
+      "constant": "NS_PIXEL",
+      "name": "Asset_Pixel",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5221,
+      "constant": "NS_PIXEL_TALK",
+      "name": "Asset_Pixel_talk"
+    },
+    {
+      "id": 5222,
+      "constant": "NS_ASSET3D",
+      "name": "Asset_3d",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5223,
+      "constant": "NS_ASSET3D_TALK",
+      "name": "Asset_3d_talk"
+    },
+    {
+      "id": 5224,
+      "constant": "NS_EABA",
+      "name": "Game_RPG_EABA",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5225,
+      "constant": "NS_EABA_TALK",
+      "name": "Game_RPG_EABA_talk"
+    },
+    {
+      "id": 5226,
+      "constant": "NS_ZERO",
+      "name": "Game_RPG_Zero",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5227,
+      "constant": "NS_ZERO_TALK",
+      "name": "Game_RPG_Zero_talk"
+    },
+    {
+      "id": 5228,
+      "constant": "NS_SAVAGE",
+      "name": "Game_RPG_Savage",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5229,
+      "constant": "NS_SAVAGE_TALK",
+      "name": "Game_RPG_Savage_talk"
+    },
+    {
+      "id": 5230,
+      "constant": "NS_BRP",
+      "name": "Game_RPG_BPR",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5231,
+      "constant": "NS_BRP_TALK",
+      "name": "Game_RPG_BPR_talk"
+    },
+    {
+      "id": 5232,
+      "constant": "NS_5E",
+      "name": "Game_RPG_5e",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5233,
+      "constant": "NS_5E_TALK",
+      "name": "Game_RPG_5e_talk"
+    },
+    {
+      "id": 5234,
+      "constant": "NS_PATH",
+      "name": "Game_RPG_Path",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5235,
+      "constant": "NS_PATH_TALK",
+      "name": "Game_RPG_Path_talk"
+    },
+    {
+      "id": 5236,
+      "constant": "NS_STRIKE",
+      "name": "Game_CCG_Strike",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5237,
+      "constant": "NS_STRIKE_TALK",
+      "name": "Game_CCG_Strike_talk"
+    }
+  ],
+  "manifest_version": 2
+}
