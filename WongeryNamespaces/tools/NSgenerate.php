@@ -4,21 +4,53 @@
 // rather than writing it all out by hand.
 
 // Initially I was going to omit this directory from the repository
-// (I'd had it listed in .gitignore) but they I decided eh,
+// (I'd had it listed in .gitignore) but then I decided eh,
 // what's the harm in including it.
 
 $mainspaces = ["Game", "Build", "Asset", "Source", "Works", "Map"];
 $subspaceConstants = [
-    "RPG", "CCG", "WAR", "BOARD", "CARD", "DICE", "LEGO", "ORIGAMI",
-    "PAPER", "BUILD3D", "PIXEL", "ASSET3D", "EABA", "ZERO", "SAVAGE",
-    "BRP", "5E", "PATH", "STRIKE"
+    "RPG",
+    "CCG",
+    "WAR",
+    "BOARD",
+    "CARD",
+    "DICE",
+    "LEGO",
+    "ORIGAMI",
+    "PAPER",
+    "BUILD3D",
+    "PIXEL",
+    "ASSET3D",
+    "EABA",
+    "ZERO",
+    "SAVAGE",
+    "BRP",
+    "5E",
+    "PATH",
+    "STRIKE",
+    "GURPS"
 ];
 $subspaceNames = [
-    "Game:RPG", "Game:CCG", "Game:War", "Game:Board", "Game:Card",
-    "Game:Dice", "Build:LEGO", "Build:Origami", "Build:Paper",
-    "Build:3d", "Asset:Pixel", "Asset:3d", "Game:RPG:EABA",
-    "Game:RPG:Zero", "Game:RPG:Savage", "Game:RPG:BPR", "Game:RPG:5e",
-    "Game:RPG:Path", "Game:CCG:Strike"
+    "Game:RPG",
+    "Game:CCG",
+    "Game:War",
+    "Game:Board",
+    "Game:Card",
+    "Game:Dice",
+    "Build:LEGO",
+    "Build:Origami",
+    "Build:Paper",
+    "Build:3d",
+    "Asset:Pixel",
+    "Asset:3d",
+    "Game:RPG:EABA",
+    "Game:RPG:Zero",
+    "Game:RPG:Savage",
+    "Game:RPG:BPR",
+    "Game:RPG:5e",
+    "Game:RPG:Path",
+    "Game:CCG:Strike",
+    "Game:RPG:GURPS"
 ];
 
 $id = 5020;

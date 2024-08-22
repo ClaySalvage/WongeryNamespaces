@@ -1,24 +1,18 @@
 {
   "name": "WongeryNamespaces",
   "namemsg": "wongerynamespaces-extensionname",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Clay Salvage",
   "url": "https://meta.wongery.org/wiki/Extension:WongeryNamespaces",
   "type": "other",
   "descriptionmsg": "wongerynamespaces-desc",
+  "MessagesDirs": {
+    "PluggableAuth": ["i18n"]
+  },
   "requires": {
     "MediaWiki": ">= 1.38.0"
   },
   "config": {},
-  "AutoloadNamespaces": {
-    "MediaWiki\\Extension\\WongeryNamespaces\\": "src/"
-  },
-  "HookHandlers": {
-    "WongeryNamespacesHookHandler": {
-      "class": "MediaWiki\\Extension\\WongeryNamespaces\\WongeryNamespacesHookHandler"
-    }
-  },
-  "Hooks": {},
   "license-name": "GPL-2.0-or-later",
   "ResourceModules": {
     "ext.randomRules": {
@@ -265,35 +259,35 @@
     {
       "id": 5230,
       "constant": "NS_BRP",
-      "name": "Game_RPG_BPR",
+      "name": "Game_RPG_BRP",
       "protection": "extra-edit"
     },
     {
       "id": 5231,
       "constant": "NS_BRP_TALK",
-      "name": "Game_RPG_BPR_talk"
+      "name": "Game_RPG_BRP_talk"
     },
     {
       "id": 5232,
-      "constant": "NS_5E",
-      "name": "Game_RPG_5e",
+      "constant": "NS_DND",
+      "name": "Game_RPG_D&D",
       "protection": "extra-edit"
     },
     {
       "id": 5233,
-      "constant": "NS_5E_TALK",
-      "name": "Game_RPG_5e_talk"
+      "constant": "NS_DND_TALK",
+      "name": "Game_RPG_D&D_talk"
     },
     {
       "id": 5234,
-      "constant": "NS_PATH",
-      "name": "Game_RPG_Path",
+      "constant": "NS_PATHFINDER",
+      "name": "Game_RPG_Pathfinder",
       "protection": "extra-edit"
     },
     {
       "id": 5235,
-      "constant": "NS_PATH_TALK",
-      "name": "Game_RPG_Path_talk"
+      "constant": "NS_PATHFINDER_TALK",
+      "name": "Game_RPG_Pathfinder_talk"
     },
     {
       "id": 5236,
@@ -305,6 +299,17 @@
       "id": 5237,
       "constant": "NS_STRIKE_TALK",
       "name": "Game_CCG_Strike_talk"
+    },
+    {
+      "id": 5238,
+      "constant": "NS_GURPS",
+      "name": "Game_RPG_GURPS",
+      "protection": "extra-edit"
+    },
+    {
+      "id": 5239,
+      "constant": "NS_GURPS_TALK",
+      "name": "Game_RPG_GURPS_talk"
     }
   ],
   "manifest_version": 2
